@@ -1,0 +1,5 @@
+Un exercice relativement simple pour débuter.
+Permet surtout la prise en main de l'environement.
+La plus grande difficulté a été  retirer l'Action Bar présente par défaut sous Android pour coller
+a l'exemple présenté sous iOS. Le bout de code permettant cela est situé dans res/values/styles mais
+il est possible de le faire par voie programatique
