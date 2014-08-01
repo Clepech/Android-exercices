@@ -1,0 +1,8 @@
+Cette fois l'application à été faite sans fragment (un peu d'experimentation...)
+Voici les composants utilisés en remplacement des composant iOS :
+UILabel             -> TextView
+UIButton            -> Button
+UISegmentedControls -> RadioGroup + RadioButon
+UISlider            -> SeekBar
+UISwitch            -> Switch
+UIStepper           -> NumberPicker (A voir)
