@@ -6,3 +6,5 @@ UISegmentedControls -> RadioGroup + RadioButon
 UISlider            -> SeekBar
 UISwitch            -> Switch
 UIStepper           -> NumberPicker (A voir)
+
+Bug connu : seulement 8 RadioButton s'affichent avec le Nexus 5

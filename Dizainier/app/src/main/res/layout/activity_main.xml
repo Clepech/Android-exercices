@@ -16,7 +16,8 @@
         android:checked="false"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onToggleClicked"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -96,6 +97,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/radioButton19"
             android:checked="false" />
+
     </RadioGroup>
 
     <RadioGroup
@@ -104,7 +106,8 @@
         android:id="@+id/radioGroupUnit"
         android:orientation="horizontal"
         android:layout_below="@+id/textViewUnit"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:onClick="onRadioGroupClick">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -164,7 +167,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="0"
-        android:id="@+id/textView3"
+        android:id="@+id/textViewRes"
         android:layout_below="@+id/radioGroupUnit"
         android:layout_centerHorizontal="true" />
 
@@ -172,7 +175,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/seekBar"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/textViewRes"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignEnd="@+id/switchGeek" />
@@ -183,6 +186,7 @@
         android:text="Reset"
         android:id="@+id/button"
         android:layout_below="@+id/seekBar"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onButtonClick" />
 
 </RelativeLayout>
